@@ -2,7 +2,7 @@
   <v-app>
     <Header :expanded="false" />
 
-    <v-content>
+    <v-main>
       <v-container
         class="fill-height"
         fluid
@@ -14,7 +14,7 @@
           <router-view />
         </v-row>
       </v-container>
-    </v-content>
+    </v-main>
 
     <v-footer app>
       <span>&copy; 2020</span>
